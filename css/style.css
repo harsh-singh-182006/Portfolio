@@ -1,0 +1,123 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e3f2fd;
+  color: #0d47a1;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+div {
+  max-width: 900px;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+h1 {
+  text-align: center;
+  color: #0d47a1;
+  margin-bottom: 5px;
+}
+
+h2 {
+  border-bottom: 2px solid #1565c0;
+  padding-bottom: 5px;
+  color: #0d47a1;
+  margin-top: 20px;
+}
+
+h3 {
+  color: #1976d2;
+}
+
+p {
+  margin: 5px 0;
+}
+
+a {
+  color: #1565c0;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+table {
+  width: 100%;
+  margin-top: 15px;
+}
+
+td {
+  vertical-align: top;
+  padding: 10px;
+}
+
+img {
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  width: 120px;
+  height: auto;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.dark-mode {
+  background-color: #0d1117;
+  color: #c9d1d9;
+}
+
+.dark-mode a {
+  color: #58a6ff;
+}
+
+.dark-mode div {
+  background-color: #161b22;
+  box-shadow: none;
+}
+
+#darkModeButton {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  padding: 10px 15px;
+  background: #1565c0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s;
+}
+
+#darkModeButton:hover {
+  background: #0d47a1;
+}
+
+@media (max-width: 600px) {
+  div {
+    padding: 15px;
+  }
+
+  table {
+    display: block;
+  }
+
+  img {
+    width: 100px;
+    height: auto;
+  }
+}
